@@ -60,5 +60,5 @@ Model accuracy, training time, and inference time from model tensorflow-ic-image
 
 PyTorch models are color coded in red and TensorFlow models in blue.
 
-While the results shown above are for the Plant Pathology dataset, you can make similar runs on your own dataset. The notebook offered here can help you with that. Please note that the sample data used in this notebook is different from the Plant Pathology dataset. You can download the Plant Pathology data at the link provided above, or even better, use your own dataset.
+While the results shown above are for the plant leaves (Plant Pathology) dataset, you can make similar runs on your own dataset. The notebook offered here can help you with that. Please note that the sample data used in this notebook is different from the Plant Pathology dataset. You can download the Plant Pathology data at the link provided above, or even better, use your own dataset.
 
