@@ -32,25 +32,27 @@ The [public dataset](https://paperswithcode.com/dataset/plantvillage) used in th
 
 For this exercise, we selected models from two frameworks—PyTorch and TensorFlow—as offered by JumpStart. The following 15 model algorithms cover a wide range of popular neural network architectures from these frameworks:
 
-•	pytorch-ic-alexnet-FT
-•	pytorch-ic-densenet121-FT
-•	pytorch-ic-densenet201-FT
-•	pytorch-ic-googlenet-FT
-•	pytorch-ic-mobilenet-v2-FT
-•	pytorch-ic-resnet152-FT
-•	pytorch-ic-resnet34-FT
-•	tensorflow-ic-bit-s-r101x1-ilsvrc2012-classification-1-FT
-•	tensorflow-ic-imagenet-inception-resnet-v2-classification 4-FT
-•	tensorflow-ic-imagenet-inception-v3-classification-4-FT
-•	tensorflow-ic-imagenet-mobilenet-v2-050-224-classification-4-FT
-•	tensorflow-ic-imagenet-mobilenet-v2-075-224-classification-4-FT
-•	tensorflow-ic-imagenet-mobilenet-v2-140-224-classification-4-FT
-•	tensorflow-ic-imagenet-resnet-v2-152-classification-4-FT
-•	tensorflow-ic-tf2-preview-mobilenet-v2-classification-4-FT
+- pytorch-ic-alexnet-FT
+- pytorch-ic-densenet121-FT
+- pytorch-ic-densenet201-FT
+- pytorch-ic-googlenet-FT
+- pytorch-ic-mobilenet-v2-FT
+- pytorch-ic-resnet152-FT
+- pytorch-ic-resnet34-FT
+- tensorflow-ic-bit-s-r101x1-ilsvrc2012-classification-1-FT
+- tensorflow-ic-imagenet-inception-resnet-v2-classification 4-FT
+- tensorflow-ic-imagenet-inception-v3-classification-4-FT
+- tensorflow-ic-imagenet-mobilenet-v2-050-224-classification-4-FT
+- tensorflow-ic-imagenet-mobilenet-v2-075-224-classification-4-FT
+- tensorflow-ic-imagenet-mobilenet-v2-140-224-classification-4-FT
+- tensorflow-ic-imagenet-resnet-v2-152-classification-4-FT
+- tensorflow-ic-tf2-preview-mobilenet-v2-classification-4-FT
 
 ## Results
 
-Results from these 15 runs are shown below. For all these runs, the hyperparameters used were epochs = 5, learning rate = 0.001, batch size = 16.
+Results from these 15 runs are shown below. For all these runs, the hyperparameters used were epochs = 5, learning rate = 0.001, batch size = 16. 
+
+Model accuracy, training time, and inference time from model tensorflow-ic-imagenet-inception-v3-classification-4-FT were taken as the base, and results from all other models are presented relative to this base model. Our intention here is not to show which model is the best but to rather show how, through the JumpStart API, you can compare results from various models and then choose a model that best fits your use case. 
 
 ![Results](images/results.png)
 
